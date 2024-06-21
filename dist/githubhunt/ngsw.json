@@ -1,0 +1,128 @@
+{
+  "configVersion": 1,
+  "timestamp": 1691847629773,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/font/HhyXU5sn9vOmLzHPLeCFMIs.woff2",
+        "/assets/font/HhyXU5sn9vOmLzHPLeCLMItyTA.woff2",
+        "/assets/font/HhyXU5sn9vOmLzHPLeCLMItyTA800.woff2",
+        "/assets/font/HhyaU5sn9vOmLzlmC_W6EQ400.woff2",
+        "/assets/font/HhyaU5sn9vOmLzloC_U400.woff2",
+        "/assets/font/example.css",
+        "/assets/icons/githubicon-128.png",
+        "/assets/icons/githubicon-144.png",
+        "/assets/icons/githubicon-152.png",
+        "/assets/icons/githubicon-192.png",
+        "/assets/icons/githubicon-384.png",
+        "/assets/icons/githubicon-512.png",
+        "/assets/icons/githubicon-72.png",
+        "/assets/icons/githubicon-96.png",
+        "/assets/icons/heroku-x64 (1).exe",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/githubicon.png",
+        "/index.html",
+        "/main.6181da0648bae261.js",
+        "/manifest.webmanifest",
+        "/polyfills.7093448bbf94cffe.js",
+        "/runtime.edf084441d192070.js",
+        "/styles.75509adb2b2fbf35.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "from-api",
+      "patterns": [
+        "http:\\/\\/api\\.github\\.com\\/users\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 15,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/font/HhyXU5sn9vOmLzHPLeCFMIs.woff2": "881fba3da693e495f13e6766c2ddb16359e2c18f",
+    "/assets/font/HhyXU5sn9vOmLzHPLeCLMItyTA.woff2": "f6f526e90777ca45cfb50ac0ce0e6384f514a9ab",
+    "/assets/font/HhyXU5sn9vOmLzHPLeCLMItyTA800.woff2": "f6f526e90777ca45cfb50ac0ce0e6384f514a9ab",
+    "/assets/font/HhyaU5sn9vOmLzlmC_W6EQ400.woff2": "589fdf06f08b20ed9b187fac427fc6f24e0cbdd8",
+    "/assets/font/HhyaU5sn9vOmLzloC_U400.woff2": "3b834959a91cfa9797940f600d5d540fe51988b7",
+    "/assets/font/example.css": "89ff185c64aa01e803691d80030552b4527f81c7",
+    "/assets/icons/githubicon-128.png": "c3b5669b410739343d1970031372e518e495a5dd",
+    "/assets/icons/githubicon-144.png": "7dc17e49e175763747fc0aa1c956d2a16c35af21",
+    "/assets/icons/githubicon-152.png": "3cbebb3ed6184be8e1e046484ff34a508ea13e8b",
+    "/assets/icons/githubicon-192.png": "2bb9cc2584e063c182a50f6f50d640187f66aaee",
+    "/assets/icons/githubicon-384.png": "d9373ac081481f07c38f69725006d0f243d39f56",
+    "/assets/icons/githubicon-512.png": "791ec1459f09fb29dcaa7d24ba93b6c6d82913ff",
+    "/assets/icons/githubicon-72.png": "9da63af09583035e674d7878feefcf831adaa157",
+    "/assets/icons/githubicon-96.png": "92d4de3d7d7eec98bac9cbdf796fe411ccea1558",
+    "/assets/icons/heroku-x64 (1).exe": "f92089ed24f8b68f7d9fb0f2856d8d441dfc3b43",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/githubicon.png": "791ec1459f09fb29dcaa7d24ba93b6c6d82913ff",
+    "/index.html": "b62fe8a0ee4ac75d53f10b1008c4dba50e4bb4c3",
+    "/main.6181da0648bae261.js": "144abe2a71368e2ae059e0bef8308cc4887ff7fb",
+    "/manifest.webmanifest": "a542a2ade63b2a1d09cb8fe356d93ad582f91369",
+    "/polyfills.7093448bbf94cffe.js": "eae87e0478c22bc72089d5401c77e64734606979",
+    "/runtime.edf084441d192070.js": "73fed1e46a64bf1979efca0bf840094842b62d13",
+    "/styles.75509adb2b2fbf35.css": "6ded8eecd759a87e589fbb05b5581604ec866d76"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
